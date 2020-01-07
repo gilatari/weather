@@ -1,0 +1,33 @@
+.navBar{
+    position: relative;
+    border: 0px solid black;
+    height: 67px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar .title{
+    margin-left: 14px;
+    font-weight: 600;
+}
+.navBar .nav-buttons{
+    border: 2px solid black;
+    width: fit-content;
+    margin-right: 14px;
+}
+.navBar .nav-buttons .link{
+    border-style: none;
+    background-color: transparent;
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.navBar .nav-buttons .link:hover{
+    background-color: lightsteelblue;
+    cursor: pointer;
+}

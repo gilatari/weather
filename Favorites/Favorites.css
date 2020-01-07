@@ -1,0 +1,7 @@
+.favorites .daily-weather{
+    width: 130px;
+    height: 140px;
+    display: inline-block;
+    border: 2px solid;
+    margin: 17px;
+}

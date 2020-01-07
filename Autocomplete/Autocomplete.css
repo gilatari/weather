@@ -1,0 +1,32 @@
+
+.autocomplete{
+    width: fit-content;
+}
+.autocomplete .cities{
+    -webkit-box-shadow: 20px 10px 27px 0px rgba(153,153,156,1);
+    -moz-box-shadow: 20px 10px 27px 0px rgba(153,153,156,1);
+    box-shadow: 20px 10px 27px 0px rgba(153,153,156,1);
+    width: 30%;
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.autocomplete .cities .city-name:hover{
+    background-color: beige;
+}
+.autocomplete .Title{
+    margin-left: 14px;
+}
+
+.autocomplete .magnifying-glass{
+    position: absolute;
+    margin: 3px;
+    cursor: pointer;
+}
+.autocomplete input{
+    height: 23px;
+    padding: 0 23px 0 23px;
+    border:2px solid black;
+}

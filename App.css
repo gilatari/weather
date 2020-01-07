@@ -1,0 +1,10 @@
+.app {
+  text-align: center;
+}
+
+.app .app-header {
+  border: 1px solid black;
+}
+.app .app-body{
+  border: 1px solid black;
+}
